@@ -1,17 +1,21 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <giphy query="kermit typing" apiKey="FWCVxq99r64wpHlrUp4mQ3YyCWVnUvuP"></giphy>
+    <Deadline/>
+    <!-- <img alt="Vue logo" src="./assets/fasttyping.gif"> -->
+
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Deadline from './components/Deadline.vue'
+import giphy from './components/Giphy'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Deadline,
+    giphy
   }
 }
 </script>
@@ -22,7 +26,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #01c20bee;
   margin-top: 60px;
 }
 </style>
