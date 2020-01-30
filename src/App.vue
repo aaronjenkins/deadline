@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <giphy query="kermit typing" apiKey="FWCVxq99r64wpHlrUp4mQ3YyCWVnUvuP"></giphy>
+    <giphy query="kermittyping" apiKey="FWCVxq99r64wpHlrUp4mQ3YyCWVnUvuP"></giphy>
     <Deadline/>
     <!-- <img alt="Vue logo" src="./assets/fasttyping.gif"> -->
 
